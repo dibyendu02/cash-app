@@ -10,7 +10,7 @@ import pillarSmall from '../images/payments/payments-pillar-small.png'
 const PaymentBackground = () => {
   return (
     <div className="overflow-hidden ">
-        <img src={bgImage} className="w-full absolute bottom-[0%]"/>
+        <img src={bgImage} className="w-full absolute bottom-[3%]"/>
 
         <img src={column1} className="w-[810px] absolute right-0 bottom-[10%]"/>
         <img src={column3} className="w-[810px] z-10 absolute left-[28%] bottom-[0]"/>
@@ -22,11 +22,6 @@ const PaymentBackground = () => {
         <img src={pillarMedium} className="w-[172px] z-10 absolute left-[40%] bottom-[10%]"/>
         <img src={pillarMedium} className="w-[172px] z-10 absolute left-[15%] bottom-[8%]"/>
         <img src={pillarSmall} className="w-[135px] z-5 absolute left-[22%] bottom-[15%]"/>
-        
-        
-
-
-        
     </div>
   )
 }

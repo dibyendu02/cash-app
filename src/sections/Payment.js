@@ -6,7 +6,7 @@ const Payment = () => {
   return (
     <div
     // style={{ backgroundImage: `url(${bgImage})`,  backgroundSize: "cover"}}
-    className="h-[105vh] relative flex items-center">
+    className="h-screen relative flex items-center">
         
         <PaymentBackground/>
 
