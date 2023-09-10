@@ -4,6 +4,7 @@ import Hero from './sections/Hero';
 import Payment from './sections/Payment';
 import Banking from './sections/Banking';
 import CashCard from './sections/CashCard';
+import Investing from './sections/Investing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Payment/>
       <Banking/>
       <CashCard/>
+      <Investing/>
     </div>
   );
 }
